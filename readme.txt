@@ -1,0 +1,1 @@
+Replace these with your own images. Put hero image as public/images/blossom-hero.jpg and any gallery images in public/images/.

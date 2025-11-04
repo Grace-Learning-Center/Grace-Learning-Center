@@ -1,0 +1,21 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blossoming tree from a book theme */
+:root{
+  --leaf: #6B8E23;
+  --blossom: #F7C6D1;
+  --bark: #8B5E3C;
+  --parchment: #FFF6EA;
+  --accent: #7FB5A8;
+}
+
+body { background: var(--parchment); font-family: ui-serif, Georgia, 'Times New Roman', serif; }
+.header-badge { background: linear-gradient(135deg,var(--leaf),var(--bark)); }
+.card { box-shadow: 0 8px 24px rgba(0,0,0,0.06); border-radius: 14px; background: white; overflow: hidden; }
+.hero-cta { background: linear-gradient(90deg,var(--blossom),var(--accent)); color: #2b2b2b; }
+h1,h2,h3 { color: #2b2b2b; font-weight: 700; }
+a { color: var(--leaf); }
+.footer { background: linear-gradient(180deg, rgba(139,94,60,0.03), transparent); }
